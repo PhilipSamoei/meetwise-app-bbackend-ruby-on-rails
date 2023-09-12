@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: #1B1D24;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* styles.css */
+
+/* Sticky navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Background color for the navbar */
+.navbar-dark.bg-dark {
+  background-color: #343a40;
+}
+
+/* Custom color for the search button */
+.btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* Add margin to the top and bottom of the container */
+
+.container.login {
+  
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Center-align the content of the footer */
+.page-footer {
+  text-align: center;
+}
+
+/* Set the background and font color for the footer */
+.page-footer.font-small.blue {
+  background-color: #f8f9fa;
+  color: #333;
+}
